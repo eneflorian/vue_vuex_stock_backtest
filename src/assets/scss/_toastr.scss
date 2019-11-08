@@ -1,0 +1,51 @@
+// material style toast card
+.toast, .toast:hover {
+  border-radius: 3px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24) !important;
+}
+
+// ensure the notification is equidistant from the right and bottom
+.toast-bottom-right {
+  bottom: 6px !important;
+}
+
+// full width toasts for mobile displays
+.toast-container.toast-top-full-width > div,
+.toast-container.toast-bottom-full-width > div {
+  width: 100%;
+  margin: 0;
+  border-radius: 0px !important;
+}
+
+// remove the icon from toastr
+.toast-container > div {
+  padding: 15px;
+}
+
+.toast-container > .toast-success,
+.toast-container > .toast-error,
+.toast-container > .toast-warning,
+.toast-container > .toast-info {
+  background-image: none !important;
+}
+
+// colors based off bulma.io
+.toast-success, .toast-success:hover {
+  background-color: hsl(141, 71%, 48%) !important;
+  color: #fff !important;
+}
+
+.toast-error, .toast-error:hover {
+  background-color: hsl(348, 100%, 61%) !important;
+  color: #fff !important;
+}
+
+.toast-warning, .toast-warning:hover {
+  background-color: hsl(48, 100%, 67%) !important;
+  color: rgba(0,0,0,.7) !important;
+}
+
+.toast-info, .toast-info:hover {
+  background-color: hsl(204, 86%, 53%)!important;
+  color: #fff !important;
+}
