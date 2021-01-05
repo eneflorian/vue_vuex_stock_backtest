@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@amcharts/amcharts4": "^4.1.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chart.js": "^2.7.3",
     "fusioncharts": "^3.13.3-sr.1",
     "npm": "^6.0.0",
